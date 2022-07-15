@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T20:58:57 PDT" name="Suite" finished-at="2022-07-14T20:59:11 PDT" duration-ms="13707">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T20:58:57 PDT" name="Test" finished-at="2022-07-14T20:59:11 PDT" duration-ms="13707">
+      <class name="dataDrivenTest.hrmLogin_DDT">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:dataDrivenTest.hrmLogin_DDT@6a2f6f80]" started-at="2022-07-14T20:58:57 PDT" name="launchApp" finished-at="2022-07-14T20:59:07 PDT" duration-ms="9879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLoginwithInvalidData(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTest.hrmLogin_DDT@6a2f6f80]" started-at="2022-07-14T20:59:07 PDT" name="verifyLoginwithInvalidData" data-provider="SmokeTest" finished-at="2022-07-14T20:59:09 PDT" duration-ms="1417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidData -->
+        <test-method signature="verifyLoginwithInvalidData(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTest.hrmLogin_DDT@6a2f6f80]" started-at="2022-07-14T20:59:09 PDT" name="verifyLoginwithInvalidData" data-provider="SmokeTest" finished-at="2022-07-14T20:59:10 PDT" duration-ms="1146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidData -->
+        <test-method signature="verifyLoginwithInvalidData(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTest.hrmLogin_DDT@6a2f6f80]" started-at="2022-07-14T20:59:10 PDT" name="verifyLoginwithInvalidData" data-provider="SmokeTest" finished-at="2022-07-14T20:59:11 PDT" duration-ms="1145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidData -->
+        <test-method is-config="true" signature="teatdown()[pri:0, instance:dataDrivenTest.hrmLogin_DDT@6a2f6f80]" started-at="2022-07-14T20:59:11 PDT" name="teatdown" finished-at="2022-07-14T20:59:11 PDT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatdown -->
+      </class> <!-- dataDrivenTest.hrmLogin_DDT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2022-07-14T20:59:11 PDT" name="Suite (0)" finished-at="2022-07-14T20:59:19 PDT" duration-ms="7903">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T20:59:11 PDT" name="Test" finished-at="2022-07-14T20:59:19 PDT" duration-ms="7903">
+      <class name="Tests.LoginTest_withPageFactory">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Tests.LoginTest_withPageFactory@57250572]" started-at="2022-07-14T20:59:11 PDT" name="launchApp" finished-at="2022-07-14T20:59:16 PDT" duration-ms="5190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginTest()[pri:0, instance:Tests.LoginTest_withPageFactory@57250572]" started-at="2022-07-14T20:59:16 PDT" name="loginTest" finished-at="2022-07-14T20:59:19 PDT" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teatdown()[pri:0, instance:Tests.LoginTest_withPageFactory@57250572]" started-at="2022-07-14T20:59:19 PDT" name="teatdown" finished-at="2022-07-14T20:59:19 PDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatdown -->
+      </class> <!-- Tests.LoginTest_withPageFactory -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
